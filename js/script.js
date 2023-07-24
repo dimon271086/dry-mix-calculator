@@ -29,21 +29,21 @@ function calculate() {
  function calculateCementSandMix(area, thickness) {
 	// Ваш код для расчета количества смеси цементно-песчаной
 	// Например, пусть это будет простейший расчет: площадь * толщину слоя * коэффициент
-	const coefficient = 0.02; // Примерный коэффициент для цементно-песчаной смеси
+	const coefficient = 1.8; // Примерный коэффициент для цементно-песчаной смеси
 	return (area * thickness * coefficient).toFixed(2);
  }
  
  function calculatePlasterMix(area, thickness) {
 	// Ваш код для расчета количества штукатурной смеси
 	// Аналогично примеру выше
-	const coefficient = 0.03; // Примерный коэффициент для штукатурной смеси
+	const coefficient = 2.3; // Примерный коэффициент для штукатурной смеси
 	return (area * thickness * coefficient).toFixed(2);
  }
  
  function calculateMasonryMix(area, thickness) {
 	// Ваш код для расчета количества кладочной смеси
 	// Аналогично примерам выше
-	const coefficient = 0.025; // Примерный коэффициент для кладочной смеси
+	const coefficient = 2.5; // Примерный коэффициент для кладочной смеси
 	return (area * thickness * coefficient).toFixed(2);
  }
  
